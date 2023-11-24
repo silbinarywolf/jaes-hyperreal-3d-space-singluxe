@@ -1,0 +1,20 @@
+zig-cache/
+zig-out/
+
+# ignore zips
+*.zip
+
+# ignore .vscode
+.vscode/launch.json
+
+# ignore certain Blender files from output (dont use them)
+src/resources/**/*.mtl
+src/resources/**/*.blend1
+src/resources/**/*.blend
+
+# ignore raylib noise
+raylib/examples
+raylib/cmake
+raylib/projects
+raylib/logo
+raylib/.github
